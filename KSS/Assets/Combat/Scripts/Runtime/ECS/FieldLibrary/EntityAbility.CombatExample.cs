@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KSS.Runtime.ECS
+{
+    public sealed partial class EntityAbilityLibrary
+    {
+        [SkillProperty("Attack")]
+        public string AttackValue;
+
+        //TODO:...
+    }
+}
